@@ -2,7 +2,7 @@
 
 Busquet Lucas, Hernández Hugo, Iriarte Tomás
 
-We needed to predict whether a certain employee would be terminated next quarter. We began by loading the dataset and cleaning the data. Changing the data types and fixing NaN values. After inspecting the dataset and choosing certain features, we ran a Random Forest Classifier. This did not have a good performance, due to heavily unbalanced classes (15 Existing to 1 Terminated).
+We needed to predict whether a certain employee would be terminated next quarter. We began by loading the dataset and cleaning the data. Changing the data types and fixing NaN values. After inspecting the dataset and gaining some insight, we chose certain features and ran a Random Forest Classifier. This did not have a good performance, due to heavily unbalanced classes (Globally 10 Existing to 1 Terminated).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/179608935-7b7f6b42-215b-43c2-83b4-9c8805f294f1.png" />
