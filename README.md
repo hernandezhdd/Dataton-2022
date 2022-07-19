@@ -1,6 +1,6 @@
 # FIUBA Dataton 2022 - ZS Employee Churn Prediction Challenge
 
-Busquet Lucas, Hernández Hugo, Iriarte Tomás
+<b>Busquet Lucas, Hernández Hugo, Iriarte Tomás</b>
 
 We needed to predict whether a certain employee would be terminated next quarter. We began by loading the dataset and cleaning the data. Changing the data types and fixing NaN values. After inspecting the dataset and gaining some insight, we plotted the next figures:
 
