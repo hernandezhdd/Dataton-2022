@@ -28,9 +28,7 @@ We needed to predict whether a certain employee would be terminated next quarter
   width="500" />
 </p>
 
-<p align="center">
-  <b>Product sold by employees</b>
-</p>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/179815377-498ccadd-19cf-48d0-8553-504031905760.png"
   width="500" />
@@ -48,8 +46,10 @@ Finally we used SMOTE to oversample the minority class, taking care not to leak 
   <img src="https://user-images.githubusercontent.com/71747228/179608989-eafc1417-0039-41e9-8c7e-c052da4c1898.png" />
 </p>
 
-##### Image of the dashboard
 
+<p align="center">
+  <b>Image of the dashboard</b>
+</p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/179818556-727e93d2-c2a1-4434-8837-a3067431ffc9.jpeg" />
 </p>
