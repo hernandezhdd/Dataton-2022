@@ -55,10 +55,10 @@ Finally we used SMOTE to oversample the minority class, taking care not to leak 
 </p>
 
 
-<p align="center">
+<!-- <p align="center">
   <b>Image of the dashboard</b>
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/179818556-727e93d2-c2a1-4434-8837-a3067431ffc9.jpeg" />
-</p>
+</p> -->
 
