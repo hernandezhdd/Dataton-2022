@@ -47,3 +47,8 @@ Finally we used SMOTE to oversample the minority class, taking care not to leak 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71747228/179608989-eafc1417-0039-41e9-8c7e-c052da4c1898.png" />
 </p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/179818556-727e93d2-c2a1-4434-8837-a3067431ffc9.jpeg" />
+</p>
+
