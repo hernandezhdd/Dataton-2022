@@ -42,23 +42,24 @@ With those and other important features we ran a Random Forest Classifier. This 
   <b>Test set Confusion Matrix without SMOTE</b>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/179823615-06206b41-ab78-4ed2-b37e-9c99484b6749.jpg" />
+
+  <img src="https://user-images.githubusercontent.com/71747228/179828296-a8d3bf2e-cf9c-497a-ba38-062985d29238.jpg" />
 </p>
 
 Finally we used SMOTE to oversample the minority class, taking care not to leak information into the training set, and re-ran the classifier, obtaining a much better performance.
 
     print(accuracy_score(y_test, y_pred))
-    >0.97
+    >0.98
     print(f1_score(y_test, y_pred))
-    >0.94
+    >0.91
     print(recall_score(y_test, y_pred))
-    >0.94
+    >0.90
     
 <p align="center">
   <b>Test set Confusion Matrix with SMOTE</b>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/179823456-9ddd9a9a-13c4-4299-8b1b-bbe1d0c6ccaa.jpg" />
+  <img src="https://user-images.githubusercontent.com/71747228/179828251-2465a6e3-4126-4cde-8474-75d91f305d0e.jpg" />
 </p>
 
 
