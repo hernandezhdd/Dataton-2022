@@ -39,19 +39,26 @@ We needed to predict whether a certain employee would be terminated next quarter
 With those and other important features we ran a Random Forest Classifier. This did not have a good performance, due to heavily unbalanced classes (Globally 10 Existing to 1 Terminated). 
 
 <p align="center">
-  <b>Confusion Matrix without SMOTE</b>
+  <b>Test set Confusion Matrix without SMOTE</b>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/179608935-7b7f6b42-215b-43c2-83b4-9c8805f294f1.png" />
+  <img src="https://user-images.githubusercontent.com/71747228/179823615-06206b41-ab78-4ed2-b37e-9c99484b6749.jpg" />
 </p>
 
 Finally we used SMOTE to oversample the minority class, taking care not to leak information into the training set, and re-ran the classifier, obtaining a much better performance.
 
+    print(accuracy_score(y_test, y_pred))
+    >0.97
+    print(f1_score(y_test, y_pred))
+    >0.94
+    print(recall_score(y_test, y_pred))
+    >0.94
+    
 <p align="center">
-  <b>Confusion Matrix with SMOTE</b>
+  <b>Test set Confusion Matrix with SMOTE</b>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71747228/179608989-eafc1417-0039-41e9-8c7e-c052da4c1898.png" />
+  <img src="https://user-images.githubusercontent.com/71747228/179823456-9ddd9a9a-13c4-4299-8b1b-bbe1d0c6ccaa.jpg" />
 </p>
 
 
