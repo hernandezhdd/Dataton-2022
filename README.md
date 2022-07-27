@@ -70,3 +70,7 @@ Finally we used SMOTE to oversample the minority class, taking care not to leak 
   <img src="https://user-images.githubusercontent.com/71747228/179818556-727e93d2-c2a1-4434-8837-a3067431ffc9.jpeg" />
 </p> -->
 
+### Exploratory Data Analysis
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71747228/181174083-a589c487-3ab2-4235-ae78-66283e4c6ff9.png" />
+</p>
